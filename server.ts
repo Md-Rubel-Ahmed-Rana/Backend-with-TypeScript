@@ -1,6 +1,6 @@
-import databaseConnection from "./src/config/database";
+import databaseConnection from "./config/database";
 const port = 5000
-import app from "./src/app/app"
+import app from "./app/app"
 
 app.listen(port, () => {
     databaseConnection()
